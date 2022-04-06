@@ -50,7 +50,9 @@ Prilikom povlacenja ETH-a nazad od strane korisnika nakog racunanja kolicine koj
     totalBalance = totalBalance - ( kolicina_depositovana_od_korisnika - kolicina_raspodeljena_ostalima )
 Kolicina ETH za korisnika se smanjuje na 0 ali se vreme ne vraca na 0 vec ostaje isto. Ukoliko bi se vratilo na nula prilikom sledeceg depositovanja korisnik bi se gledao kao nov sto nije potrebno. Kako mu je sada kolicina koju je depositovao 0 on nece dobijati nikakav procenat od ostalih korisnika jer ce on imati 0%. 
 
-Zaradu moze da uzme samo firma odnosno vlasnik smart contract-a po istom principu kao sto korisnik dobija nazad svoj ETH
+Zaradu moze da uzme samo firma odnosno vlasnik smart contract-a po istom principu kao sto korisnik dobija nazad svoj ETH.
+
+Solidity verzija je 0.6.12 zbog toga sto su svi interjfesi i contracti koje sam dobio instaliranjem aavev2 protokola bili na toj verziji.
 
 
 
